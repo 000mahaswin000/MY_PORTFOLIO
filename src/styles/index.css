@@ -1,0 +1,75 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+/* Portfolio Global Styles */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #000010 !important;
+  color: #fff;
+  overflow-x: hidden;
+  font-family: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.6; box-shadow: 0 0 20px rgba(139,92,246,0.3); }
+  50% { opacity: 1; box-shadow: 0 0 40px rgba(139,92,246,0.6); }
+}
+
+@keyframes timeline-pulse {
+  0%, 100% { box-shadow: 0 0 10px rgba(0,245,255,0.4), 0 0 20px rgba(0,245,255,0.2); }
+  50% { box-shadow: 0 0 20px rgba(0,245,255,0.8), 0 0 40px rgba(0,245,255,0.4); }
+}
+
+@keyframes orbit {
+  from { transform: rotateX(75deg) rotateZ(0deg); }
+  to { transform: rotateX(75deg) rotateZ(360deg); }
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes neon-border {
+  0%, 100% { border-color: rgba(0,245,255,0.4); box-shadow: 0 0 10px rgba(0,245,255,0.2); }
+  50% { border-color: rgba(139,92,246,0.6); box-shadow: 0 0 20px rgba(139,92,246,0.4); }
+}
+
+@keyframes comet-trail {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+/* Input placeholder styling */
+input::placeholder,
+textarea::placeholder {
+  color: rgba(140, 140, 190, 0.45);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 20, 0.5);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(139, 92, 246, 0.4);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(139, 92, 246, 0.7);
+}
