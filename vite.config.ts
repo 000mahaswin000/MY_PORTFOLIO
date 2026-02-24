@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url'
 
 export default defineConfig({
   // This fixes the blank page on GitHub Pages
-  base: '/Portfolio/', 
+  base: '/MY_PORTFOLIO/', 
   
   plugins: [
     react(),
