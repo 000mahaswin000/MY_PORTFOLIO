@@ -4,45 +4,45 @@ import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 
 const projects = [
   {
-    title: 'Nebula Explorer',
+    title: 'Hostel Management System',
     description:
-      'An interactive 3D visualization of cosmic structures, rendered with real-time data from NASA APIs.',
+      'A secure, dual-portal C application for hostel administration featuring persistent binary storage, automated maintenance ticket tracking, and robust data integrity through soft-deletion',
     tags: ['React', 'Three.js', 'WebGL'],
     color: '#06b6d4',
     borderColor: 'rgba(6,182,212,0.5)',
     featured: true,
     image:
-      'https://images.unsplash.com/photo-1615392030676-6c532fe0c302?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFjZSUyMG5lYnVsYSUyMDNEJTIwdmlzdWFsaXphdGlvbiUyMGRhcmt8ZW58MXx8fHwxNzcxODQ2NjEwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-    github: '#',
-    demo: '#',
+      'https://images.unsplash.com/photo-1669023414162-5bb06bbff0ec?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    github: 'https://github.com/000mahaswin000/HOSTLE-MANAGEMENT-SYSTEM.git',
+    demo: 'https://example.com/hostel-management-demo',
   },
   {
-    title: 'Exo-Planet Finder',
+    title: 'Cosmic Style Portfolio',
     description:
-      'Discover new worlds and habitable zones using machine learning models trained on Kepler data.',
-    tags: ['Vue.js', 'A-Frame', 'Python'],
+      'A visually stunning portfolio website inspired by cosmic aesthetics, smooth animations to showcase projects in a unique way.',
+    tags: ['Node.js','Typescript'],
     color: '#8b5cf6',
     borderColor: 'rgba(139,92,246,0.45)',
-    featured: false,
+    featured: true,
     image:
-      'https://images.unsplash.com/photo-1769255119710-cc682f1d882c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxleG9wbGFuZXQlMjBkaXNjb3ZlcnklMjBzcGFjZSUyMHNjaWVuY2V8ZW58MXx8fHwxNzcxODQ2NjExfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      'https://images.unsplash.com/photo-1677357623576-7c8aab08da22?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     github: '#',
     demo: '#',
   },
   {
-    title: 'Cosmic Journey',
+    title: 'Constellation style Portfolio',
     description:
-      'Virtual reality space exploration experience with procedurally generated environments.',
-    tags: ['Node.js', 'WebXR', 'Three.js'],
+      'A portfolio website with a constellation-inspired design, featuring interactive star maps and smooth animations to highlight projects.',
+    tags: ['Node.js', 'Typescript'],
     color: '#10b981',
     borderColor: 'rgba(16,185,129,0.4)',
-    featured: false,
+    featured: true,
     image:
-      'https://images.unsplash.com/photo-1655929947078-263a3dea40aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx2aXJ0dWFsJTIwcmVhbGl0eSUyMGhlYWRzZXQlMjBkYXJrJTIwbmVvbnxlbnwxfHx8fDE3NzE4NDY2MTF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      'https://images.unsplash.com/photo-1528722828814-77b9b83aafb2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     github: '#',
     demo: '#',
   },
-  {
+  /*{
     title: 'Stellar Dashboard',
     description:
       'Real-time analytics dashboard for satellite telemetry with AI-powered anomaly detection.',
@@ -80,7 +80,7 @@ const projects = [
       'https://images.unsplash.com/photo-1761212534376-a8b8d7c56669?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzYXRlbGxpdGUlMjBvcmJpdCUyMGVhcnRoJTIwdHJhY2tpbmd8ZW58MXx8fHwxNzcxODQ2NjEzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
     github: '#',
     demo: '#',
-  },
+  },*/
 ];
 
 export function Projects() {
@@ -123,7 +123,7 @@ export function Projects() {
               backgroundClip: 'text',
             }}
           >
-            Stellar Project Showcase
+            Project Showcase
           </h1>
           <p
             style={{
@@ -133,7 +133,7 @@ export function Projects() {
               margin: '0 auto',
             }}
           >
-            A collection of cosmic-scale projects built with passion for performance and elegance.
+            A collection of projects built with passion for performance and elegance.
           </p>
         </motion.div>
 

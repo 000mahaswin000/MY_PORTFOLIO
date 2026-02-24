@@ -674,7 +674,7 @@ export function Contact() {
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                       onFocus={() => setFocused('name')}
                       onBlur={() => setFocused(null)}
-                      placeholder="John Doe"
+                      placeholder="Name"
                       required
                       style={{
                         width: '100%',
@@ -713,7 +713,7 @@ export function Contact() {
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                       onFocus={() => setFocused('email')}
                       onBlur={() => setFocused(null)}
-                      placeholder="johndoe@email.com"
+                      placeholder="name@email.com"
                       required
                       style={{
                         width: '100%',
@@ -809,11 +809,10 @@ export function Contact() {
               }}
             >
               {[
-                { icon: <Github size={20} />, label: 'GitHub', href: '#' },
-                { icon: <Linkedin size={20} />, label: 'LinkedIn', href: '#' },
-                { icon: <Twitter size={20} />, label: 'Twitter', href: '#' },
-                { icon: <Instagram size={20} />, label: 'Instagram', href: '#' },
-                { icon: <Mail size={20} />, label: 'Email', href: 'mailto:surya@example.com' },
+                { icon: <Github size={20} />, label: 'GitHub', href: 'https://github.com/000mahaswin000' },
+                { icon: <Linkedin size={20} />, label: 'LinkedIn', href: 'https://linkedin.com/in/mahaswin-d-aa19a33a1' },
+                { icon: <Instagram size={20} />, label: 'Instagram', href: 'https://instagram.com/000___ash___000/' },
+                { icon: <Mail size={20} />, label: 'Email', href: 'mailto:mahaswin290208@gmail.com' },
               ].map((social) => (
                 <motion.a
                   key={social.label}
@@ -870,12 +869,12 @@ export function Contact() {
                 {
                   icon: <MapPin size={16} color="#8b5cf6" />,
                   label: 'Location',
-                  value: 'Bengaluru, India',
+                  value: 'Chennai, India',
                 },
                 {
                   icon: <Mail size={16} color="#06b6d4" />,
                   label: 'Email',
-                  value: 'surya@example.com',
+                  value: 'mahaswin290208@gmail.com',
                 },
               ].map((info) => (
                 <div

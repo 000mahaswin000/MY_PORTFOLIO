@@ -196,7 +196,7 @@ export function Navigation() {
         {/* Right: Social */}
         <div style={{ display: 'flex', gap: 14, alignItems: 'center' }}>
           <a
-            href="https://github.com"
+            href="https://github.com/000mahaswin000"
             target="_blank"
             rel="noreferrer"
             style={{ color: 'rgba(190,190,255,0.65)', lineHeight: 0 }}
@@ -204,7 +204,7 @@ export function Navigation() {
             <Github size={18} />
           </a>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/000___ash___000/"
             target="_blank"
             rel="noreferrer"
             style={{ color: 'rgba(190,190,255,0.65)', lineHeight: 0 }}
@@ -212,7 +212,7 @@ export function Navigation() {
             <Instagram size={18} />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://linkedin.com/in/mahaswin-d-aa19a33a1"
             target="_blank"
             rel="noreferrer"
             style={{ color: 'rgba(190,190,255,0.65)', lineHeight: 0 }}

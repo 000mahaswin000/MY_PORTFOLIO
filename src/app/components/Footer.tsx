@@ -11,11 +11,10 @@ const navLinks = [
 ];
 
 const socialLinks = [
-  { icon: <Github size={18} />, href: 'https://github.com', label: 'GitHub' },
-  { icon: <Linkedin size={18} />, href: 'https://linkedin.com', label: 'LinkedIn' },
-  { icon: <Twitter size={18} />, href: 'https://twitter.com', label: 'Twitter' },
-  { icon: <Instagram size={18} />, href: 'https://instagram.com', label: 'Instagram' },
-  { icon: <Mail size={18} />, href: 'mailto:surya@example.com', label: 'Email' },
+  { icon: <Github size={18} />, href: 'https://github.com/000mahaswin000', label: 'GitHub' },
+  { icon: <Linkedin size={18} />, href: 'https://linkedin.com/in/mahaswin-d-aa19a33a1', label: 'LinkedIn' },
+  { icon: <Instagram size={18} />, href: 'https://instagram.com/000___ash___000/', label: 'Instagram' },
+  { icon: <Mail size={18} />, href: 'mailto:mahaswin290208@gmail.com', label: 'Email' },
 ];
 
 const scrollToSection = (id: string) => {
@@ -74,7 +73,7 @@ export function Footer() {
                   letterSpacing: '-0.5px',
                 }}
               >
-                Surya
+                Mahaswin D
                 <span style={{ color: '#8b5cf6' }}>.</span>
               </span>
             </button>
@@ -87,7 +86,7 @@ export function Footer() {
               }}
             >
               Full-Stack Software Engineer passionate about building scalable
-              web applications and stunning digital experiences.
+              web applications and stunning digital experiences
             </p>
           </div>
 
@@ -211,9 +210,9 @@ export function Footer() {
               gap: 4,
             }}
           >
-            Built with <Heart size={12} color="#f43f5e" fill="#f43f5e" /> by Surya Pratap
+            Built with <Heart size={12} color="#f43f5e" fill="#f43f5e" /> by D Mahaswin
             <span style={{ margin: '0 6px' }}>·</span>
-            2025
+            2026
           </div>
 
           <motion.button

@@ -369,7 +369,18 @@ export function Home() {
                 flexWrap: "wrap",
               }}
             >
-              {[{ num: "20+", label: "Happy Clients" }].map(
+              {[
+
+
+
+
+                /*{ num: "20+", label: "Happy Clients" }*/
+
+
+
+
+                
+              ].map(
                 (stat) => (
                   <div key={stat.label}>
                     <div

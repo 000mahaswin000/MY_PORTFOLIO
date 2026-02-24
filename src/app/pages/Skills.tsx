@@ -34,6 +34,7 @@ const techIcons = [
     bg: 'rgba(55,118,171,0.15)',
     logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
   },
+  
   {
     label: 'AWS',
     color: '#FF9900',
@@ -128,10 +129,10 @@ const skillCategories = [
     skills: ['Figma', 'v0.dev', 'Stitch', 'Prototyping'],
   },
   {
-    title: 'Tools & Technologies',
+    title: 'Languages',
     color: '#06B6D4',
     borderColor: 'rgba(6,182,212,0.4)',
-    skills: ['Antigravity', 'Jest', 'Webpack', 'Redux', 'Firebase'],
+    skills: ['C', 'C++', 'Python'],
   },
   {
     title: 'Creative Skills',

@@ -4,44 +4,44 @@ import { useEffect, useState } from 'react';
 
 const academics = [
   {
-    period: '2021 — 2023',
-    degree: 'M.S. in Software Engineering',
-    institution: 'Stanford University',
+    period: '2025 - Present',
+    degree: 'Master of Technology in Computer Science (5 Years Integrated)',
+    institution: 'SSN Collage of Engineering',
     icon: <GraduationCap size={18} />,
     highlights: [
-      'Specialized in Distributed Systems and Cloud Architecture',
-      'Published research on low-latency microservices patterns',
-      'GPA: 3.94/4.0',
+      'Specialization in Artificial Intelligence and Machine Learning',
+      'GPA: 8.1/10.0 (Current)',
     ],
     color: '#8b5cf6',
     side: 'left',
   },
+
   {
-    period: '2017 — 2021',
-    degree: 'B.Tech in Computer Science',
-    institution: 'Georgia Institute of Technology',
+    period: '2023 — 2024',
+    degree: 'Higher Secondary Education (Class 11-12)',
+    institution: 'Sri Kalaimagal Vidyamandir Matric Hr Sec School',
     icon: <Code size={18} />,
     highlights: [
-      'Core focus on Algorithms, OS, and Database Management',
-      'Developed a custom JVM as a senior capstone project',
-      "Dean's List for 8 consecutive semesters",
+      'Achieved 95.8% in Higher Secondary Examinations (575/600) with Distinction in Computer Science and Mathematics stream',
     ],
     color: '#06b6d4',
     side: 'right',
   },
+  
   {
-    period: '2015 — 2017',
-    degree: 'Higher Secondary Education',
-    institution: 'Science & Mathematics Major',
+    period: '2011 — 2023',
+    degree: 'Primary & Secondary Schooling (Class 1-10)',
+    institution: 'Madanlal Khemani Vivekananda Vidyalaya',
     icon: <BookOpen size={18} />,
     highlights: [
-      'Awarded "Student of the Year" for academic excellence',
-      'National Mathematics Olympiad Finalist',
+      'Completed 12 years of foundational schooling and graduated with 85% (510/600) in 10 CBSE board exams',
+      
     ],
     color: '#10b981',
     side: 'left',
   },
-  {
+  
+  /* {
     period: '2005 — 2015',
     degree: 'Primary & Secondary School',
     institution: 'Laying the Foundations',
@@ -52,7 +52,8 @@ const academics = [
     ],
     color: '#f59e0b',
     side: 'right',
-  },
+  },*/
+
 ];
 
 export function Academics() {
