@@ -26,8 +26,8 @@ const projects = [
     featured: true,
     image:
       'https://images.unsplash.com/photo-1677357623576-7c8aab08da22?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    github: '#',
-    demo: '#',
+    github: 'https://github.com/000mahaswin000/Cosmic-Style-Portfolio.git',
+    demo: 'https://000mahaswin000.github.io/Cosmic-Style-Portfolio/',
   },
   {
     title: 'Constellation style Portfolio',
