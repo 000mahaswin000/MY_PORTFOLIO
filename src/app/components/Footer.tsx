@@ -85,8 +85,9 @@ export function Footer() {
                 maxWidth: 280,
               }}
             >
-              Full-Stack Software Engineer passionate about building scalable
-              web applications and stunning digital experiences
+              Master's Student in Computer Science
+              Exploring the universe of artificial intelligence and machine learning
+
             </p>
           </div>
 
